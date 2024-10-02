@@ -1,0 +1,107 @@
+/* Ajusta as margens do site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estabelce tanto a fonte quanto cor da pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+/* Estabelece a cor do cabeçalho, seu background e as margens*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Adcionei isso para agregar à estética mas não faz muita diferença :/ */
+/* Aumenta a margem do canto inferior */
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Não faz nada essa parte, mas fazia, então tenho medo de apagar */
+nav ul {
+    list-style: none;
+}
+
+/* Essa parte faz com que os elementos da lista fiquem alinhados */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Essa parte serve para deixar os links mais bonitos */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Um alinhamento Incrível */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Um alinhamento + cor do background dos produtos */
+.guitarras-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+/* Provavelmente a parte mais difícil do projeto, isso faz com que os ...
+ ... anûncios das guitarras fiquem alinhas, em caixas e bonitos */
+.guitarra-card {
+    display: inline-block;
+    width: 300px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Ajuste das imagens das guitarras! */
+.guitarra-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Ajuste da caixa das imagens das guitarras! */
+.guitarra-card h3 {
+    margin: 15px 0;
+}
+
+/* (Mais um) Ajuste da letra das guitarras! */
+.guitarra-card p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Botão de compra das guitarras */
+.guitarra-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Faz o botão brilhar, vi isso em um site, não sei direito como funciona mas achei legal :D */
+.guitarra-card a:hover {
+    background-color: #555;
+}
+
+/* Configuração geral do footer, com direito até à direitos reservados */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

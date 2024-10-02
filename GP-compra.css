@@ -1,0 +1,59 @@
+/* Não vou mentir, esse css ficou um pouco mais simples que a página principal */
+/* Ajusta o espaço da página de compra. */
+.guitarra-compra-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Ajusta a imagen e texto de descrição dela */
+.guitarra-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Ajuste mega necessário da foto da guitarra */
+.guitarra-compra img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Deixa o nome da guitarra e preço no local apropriado (esquerda) */
+.guitarra-info {
+    text-align: left;
+}
+
+/* Ajuste do tamanho do formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Ajusta o tamanho e os inputs do formulário. Agregou tanto ao visual que deixei na página */
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Ajusta o tamanho e visual do submit! */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Muda a cor do botão quando o mouse fica em cima do deste */
+input[type="submit"]:hover {
+    background-color: #555;
+}

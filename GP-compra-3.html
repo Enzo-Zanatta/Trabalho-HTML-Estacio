@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Guitarra - Fender Stratocaster</title>
+    <link rel="stylesheet" href="GP.css">
+    <link rel="stylesheet" href="GP-compra.css">
+</head>
+<body>
+    <!--Isso é bem legal! Vi em um site. Isso me permite ir para a pagina anteior na sessão que eu quiser.-->
+    <!--Cabeçalho-->
+    <header>
+        <h1>Chorus</h1>
+        <nav>
+            <ul>
+                <li><a href="GP.html#home">Início</a></li>
+                <li><a href="GP.html#guitarras">Guitarras à Venda</a></li>
+                <li><a href="GP.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Sessão de compra da guitarra em que aparece a foto e uma descrição, essa parte foi bem difícil-->
+    <section class="guitarra-compra-section">
+        <h2>Comprar Guitarra Fender Stratocaster</h2>
+        <div class="guitarra-compra">
+            <img src="RG.png" alt="Guitarra Ibanez RG">
+            <div class="guitarra-info">
+                <h3>Fender Stratocaster</h3>
+                <p>Preço: R$ 4.500,00</p>
+                <p>A Ibanez RG é uma guitarra clássica com som versátil e ótimo conforto ao tocar. Ideal para diferentes estilos musicais.</p>
+            </div>
+        </div>
+
+        <!--Formulário completo para coleta de informações do cliente rockeiro (devo dizer que tive que pesquisar muito na internet para montar)-->
+        <h3>Formulário de Compra</h3>
+        <form action="confirmacao.html" method="post">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="endereco">Endereço:</label><br>
+            <textarea id="endereco" name="endereco" rows="4" required></textarea><br><br>
+
+            <label for="pagamento">Forma de Pagamento:</label><br>
+            <select id="pagamento" name="pagamento" required>
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="boleto">Boleto Bancário</option>
+            </select><br><br>
+
+            <input type="submit" value="Confirmar Compra">
+        </form>
+    </section>
+
+    <!--Footer maneito novamente-->
+    <footer>
+        <p>&copy; 2024 Chorus. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
